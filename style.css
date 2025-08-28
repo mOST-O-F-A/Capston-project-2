@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Caslon+Display&family=My+Soul&family=PT+Serif+Caption:ital@0;1&display=swap');
+
+body{
+
+margin: 0;
+padding:0;
+background: radial-gradient(circle at 0% 0%, #667eea 0%, transparent 50%),
+     radial-gradient(circle at 100% 0%, #764ba2 0%, transparent 50%), 
+     radial-gradient(circle at 0% 100%, #f093fb 0%, transparent 50%), 
+     radial-gradient(circle at 100% 100%, #f5576c 0%, transparent 50%);
+
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Alif{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 0% 0%, #667eea 0%, transparent 50%),
+     radial-gradient(circle at 100% 0%, #764ba2 0%, transparent 50%), 
+     radial-gradient(circle at 0% 100%, #f093fb 0%, transparent 50%), 
+     radial-gradient(circle at 100% 100%, #f5576c 0%, transparent 50%);;
+     font-family: "My Soul", cursive;
+     font-size: 2rem;
+     width: 100% auto;
+     height: 700px;
+     border: 1.5px solid black;
+     box-shadow:  4px 4px 10px rgba(0, 0, 0, 0.3);
+     margin-bottom: 15px;
+}
+
+.lam {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+  text-align: center;      
+  padding: 20px;  
+  flex-wrap: wrap;    
+   
+}
+
+.lam img{
+  height: 200px;
+  border-radius: 50%;
+
+
+}
+
+.mem{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px;
+  box-shadow:  8px 8px 17px rgba(0, 0, 0, 0.3);
+  margin: 10px 10px 20px 40px;
+  unicode-bidi: isolate;
+  transition: transform 0.3s ease;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+}
+
+.mem img {
+  width: 60%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.mem div  {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+   font-family: "Libre Caslon Display", serif;
+   font-size: 1.7rem;
+     border-radius: 25px;
+  
+}
+.mem :hover {
+  transform: translateY(-8px);
+
+
+}
+
+.tilka{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  padding: 20px;
+  margin: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+@media (max-widht:480;) {
+ .Alif{
+  font-size: 1.4px;
+ }
+ .lam{
+  font-size: 1.4rem;
+ }
+ .mem{
+ grid-template-columns: repeat(1fr);
+ height: 80px;
+ width: auto 100%;
+ }
+ .tilka{
+ font-size: 10px;
+ }
+}
+
+@media (max-widht:768;) {
+ .Alif{
+  font-size: 1.4px;
+ }
+ .lam{
+  font-size: 1.4rem;
+ }
+ .mem{
+ grid-template-columns: repeat(1fr);
+ height: 80px;
+ width: auto 100%;
+ }
+ .tilka{
+ font-size: 10px;
+ }
+}
+
+
+
+@media (max-widht:1680;) {
+ .Alif{
+
+ }
+ .lam{
+
+ }
+ .mem{
+
+ }
+ .tilka{
+  
+ }
+}
